@@ -11,6 +11,11 @@
 /* ************************************************************************** */
 #include "ft.h"
 
+/* y = hauteur, x = longueur, xx = longueur d'input, yy = hauteur d'input
+** commenter c'est bien quand ton binome dors, ca permet de pas passer
+** trois heures a essayer de comprendre une ligne
+*/
+
 void	which(int x, int xx, int y, int yy)
 {
 	if (x == 0 || y == 0 || x == (xx - 1) || y == (yy - 1))
