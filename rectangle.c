@@ -9,15 +9,14 @@
 /*   Updated: 2014/09/15 16:31:17 by acieux           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-int		ft_putchar(char c);
+#include "ft.h"
 
 void	which(int x, int xx, int y, int yy)
 {
 	if (x == 0 || y == 0 || x == (xx - 1) || y == (yy - 1))
-		ft_putchar('-');
+		ft_putchar('.');
 	else
-		ft_putchar('-');
+		ft_putchar('.');
 }
 
 void	rectangle(int xx, int yy)
